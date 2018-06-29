@@ -14,13 +14,28 @@ public class Main {
 		System.out.println("N : " + g.getN());
 		System.out.println("M : " + g.getM());
 		
+//		g.busca();
+//		g.buscaCompleta();
+		
+//		System.out.println("É Conexo? " + g.eConexo());
+		System.out.println("e Arvore? " + g.eArvore());
+//		g.obterFlorestaGeradora().imprimeGrafo();
 		System.out.println();
+//		long a = System.currentTimeMillis();
+//		long b = 0;
+//		for(int i = 0; i < 1000000000; i++){
+//			
+//		}
+//		b = System.currentTimeMillis();
+//		System.out.println(b - a);
 		
 //		g.removeAresta(1,2);
 //		g.insereAresta(1,2);
-		g.imprimeVizinhos(g.retornaVizinhos(1));
+//		g.imprimeVizinhos(g.retornaVizinhos(0));
 //		g.insereVertice();
-//		g.removeVertice(2);
+		g.imprimeGrafo();
+		System.out.println();
+		g.removeVertice(2);
 		
 		g.imprimeGrafo();
 //		System.out.println(g.l.length);
